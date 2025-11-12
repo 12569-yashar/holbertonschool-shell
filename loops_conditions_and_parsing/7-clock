@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#salam
+
+deqiqe=1
+saat=0
+
+while (( saat <= 11 )); do
+    echo "Hour: $saat"
+
+    while (( deqiqe <= 59 )); do
+        echo "$deqiqe"
+        ((deqiqe++))
+    done
+
+    deqiqe=0
+    ((saat++))
+done
+echo "Hour: 12"
