@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# zzzZzZZZZZZZZ
+n=1
+    while (( n <= 10 )); do
+	if (( n != 4 && n != 8 )); then
+        echo "Best School"
+	fi
+        if (( n == 4 )); then
+            echo "bad luck"
+        fi
+
+        if (( n == 8 )); then
+            echo "good luck"
+        fi
+
+        ((n++))
+    done
