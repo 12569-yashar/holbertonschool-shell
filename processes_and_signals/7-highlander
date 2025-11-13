@@ -1,7 +1,7 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 #salsdjklsdbjklsdjkbsdfjkbam
-trap sigtrap 15
-sigtrap()
+trap yashar 15
+yashar()
 {
     echo "I am invincible!!!"
 }
